@@ -18,13 +18,24 @@
     }
 }
 
-/* Title */
-.navbar-brand{
-    font-size: 200%;
+.text{
+    font-family: Montserrat;
 }
 
+.subTitle{
+    font-family: Playfair;
+}
+
+/* Title */
+.title{
+    font-family: Playfair;
+    font-size: 1.5rem;
+}
+
+
 .title-item {
-    color: white;
+    color: white;  
+    font-family: Playfair;  
 }
 
 /* About me */
@@ -37,7 +48,7 @@
     background-color: whitesmoke;
     padding-top: 5%;
     padding-bottom: 5%;
-    text-align: center;
+    text-align: center;    
 }
 
 .carousel-inner{

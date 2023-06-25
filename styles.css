@@ -59,17 +59,29 @@
     font-size: 200px;
 }
 
+/* Projects */
+
+#projects{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
 /* Experience */
 #experience{
+    background-color: whitesmoke;
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
 /* Education */
 #education{
-    background-color: whitesmoke;
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
 /* Hobbies */
+#hobbies{
+    background-color: whitesmoke;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}

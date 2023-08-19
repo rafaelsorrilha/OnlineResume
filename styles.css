@@ -72,6 +72,13 @@
     width: auto;
 }
 
+/* Projects */
+
+#projects{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
 /* Experience */
 #experience{
     background-color: whitesmoke;

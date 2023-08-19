@@ -56,20 +56,39 @@
 }
 
 .carousel-image{
-    font-size: 200px;
+    height: 100px;
+    width: auto;
+}
+
+/* Projects */
+
+#projects{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.example-image{
+    height: 220px;
+    width: auto;
 }
 
 /* Experience */
 #experience{
+    background-color: whitesmoke;
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
 /* Education */
 #education{
-    background-color: whitesmoke;
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
 /* Hobbies */
+#hobbies{
+    background-color: whitesmoke;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+

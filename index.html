@@ -181,7 +181,7 @@
       
       <div class="container text-center mt-5 px-4">
         <div class="row">
-          <div class="col-6">
+          <div class="col-4">
             <a class="text btn btn-outline-success btn-lg" data-bs-toggle="collapse" href="#asteroids1" role="button"
               aria-expanded="false" aria-controls="collapseExample">
               Asteroids 2D
@@ -191,7 +191,7 @@
               Show images
             </button>
           </div>
-          <div class="col-6">
+          <div class="col-4">
             <a class="text btn btn-outline-success btn-lg" data-bs-toggle="collapse" href="#Tableau1" role="button"
               aria-expanded="false" aria-controls="collapseExample">
               Churn Rate
@@ -200,11 +200,22 @@
               aria-controls="offcanvasExample">
               Show images
             </button>
-          </div>         
+          </div>  
+          <div class="col-4">
+            <a class="text btn btn-outline-success btn-lg" data-bs-toggle="collapse" href="#todo1" role="button"
+              aria-expanded="false" aria-controls="collapseExample">
+              ToDo List
+            </a>
+            <button class="text btn btn-success btn-lg" type="button" data-bs-toggle="offcanvas" data-bs-target="#todo2"
+              aria-controls="offcanvasExample">
+              Show images
+            </button>
+          </div>       
         </div>
+        
       </div>
 
-        <!--First button is of collapse type-->
+        <!--Asteroids1-->
         <div class="text collapse m-1" id="asteroids1">
           <div class="card card-body">
             <p>This is a Fullstack Java based project, inspired by the classic game Asteroids, developed using Java and JavaFX in NetBeans.</p>
@@ -214,7 +225,7 @@
               <p>There's also a points tracker for you to try and beat your record!</p>
           </div>
         </div>
-        <!--Second button is of offcanvas type-->
+        <!--Asteroids2-->
         <div class="text offcanvas offcanvas-start" tabindex="-1" id="asteroids2" aria-labelledby="offcanvasExampleLabel">
           <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasExampleLabel">Asteroids</h5>
@@ -231,7 +242,7 @@
         </div>
         
         
-        <!--First button is of collapse type-->
+        <!--Churn Rate-->
         <div class="text collapse m-1" id="Tableau1">
           <div class="card card-body">
             <p>This project was made using SQL and Tableau, to ETL the data and to create the dashboard, respectively.</p>
@@ -239,7 +250,7 @@
             <p>You can access the dashboard and explore it yourself <a href="https://public.tableau.com/app/profile/rafael.sorrilha/viz/3_5_story_solution_16683300192070/Overview">here</a>.</p>
           </div>
         </div>
-        <!--Second button is of offcanvas type-->
+        <!--Churn Rate-->
         <div class="text offcanvas offcanvas-end" tabindex="-1" id="Tableau2" aria-labelledby="offcanvasExampleLabel">
           <div class="offcanvas-header">
             <h5 class="offcanvas-title" id="offcanvasExampleLabel">Churn Rate Report</h5>
@@ -259,6 +270,34 @@
         </div>
       </div>
 
+      <!--ToDo1-->
+      <div class="text collapse m-1" id="todo1">
+        <div class="card card-body">
+          <p>This project is my first web application and I used HTML, CSS, Node.js, EJS, Javascript and JSON to complete this one.</p>
+          <p>It is a ToDo List that shows the current date, where you are able to add new tasks and check completed ones.</p>   
+        </div>
+      </div>
+      <!--ToDo2-->
+      <div class="text offcanvas offcanvas-start" tabindex="-1" id="todo2" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasExampleLabel">ToDo List</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div>
+            <img class="img-fluid" src="assets/todolist1.png" alt="powerbi1">              
+          </div>
+          <div class="mt-5">
+            <img class="img-fluid" src="assets/todolist2.png" alt="powerbi2">
+          </div>
+          <div class="mt-5">
+            <img class="img-fluid" src="assets/todolist3.png" alt="powerbi3">
+          </div>
+        </div>
+      </div>
+
+
+
       <div class="container text-center mt-5 px-4">
         <div class="row">
           <div class="col">
@@ -273,8 +312,8 @@
           </div>
         </div>
       </div>
-      
-      <!--First button is of collapse type-->
+    
+      <!--Cookies1-->
       <div class="text collapse m-1" id="powerbi1">
         <div class="card card-body">
           <p>This project was made using SQL to transform a dataset provided by another developer and created using Power BI.</p>
@@ -283,8 +322,8 @@
           <p>You can access the BI report using your microsoft account <a href="https://app.powerbi.com/links/hwGlcidclc?ctid=5baec9fe-7440-42e1-8081-90a0fce64577&pbi_source=linkShare">here</a>.</p>          
         </div>
       </div>
-      <!--Second button is of offcanvas type-->
-      <div class="text offcanvas offcanvas-start" tabindex="-1" id="powerbi2" aria-labelledby="offcanvasExampleLabel">
+      <!--Cookies2-->
+      <div class="text offcanvas offcanvas-end" tabindex="-1" id="powerbi2" aria-labelledby="offcanvasExampleLabel">
         <div class="offcanvas-header">
           <h5 class="offcanvas-title" id="offcanvasExampleLabel">Cookie Company Financial Report</h5>
           <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -301,6 +340,8 @@
           </div>
         </div>
       </div>
+
+    
 
     </section>
   
